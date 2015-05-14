@@ -1,0 +1,30 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 980px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+#prev {
+    float: left;
+}
+
+#next {
+    float: right;
+}
+
+table, td, tr, th {
+    border: 1px solid black;
+}
+
+td[colspan] {
+    border: none;
+}
+
+td, th {
+    width: 85px;
+}
